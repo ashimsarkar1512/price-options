@@ -4,6 +4,7 @@ import BarChart from './components/BarChart/BarChart'
 
 import LineChart from './components/LineChart/LineChart'
 import Navbar from './components/Navbar/Navbar'
+import Phones from './components/Phones/Phones'
 import PieChart from './components/PieChart/PieChart'
 // import DaisyNav from './components/DaisyNav/DaisyNav'
 import PriceOptions from './components/PriceOptions/PriceOptions'
@@ -21,6 +22,8 @@ function App() {
        <LineChart></LineChart>
       <BarChart></BarChart>
       <PieChart></PieChart>
+
+      <Phones></Phones>
    
     </>
   )
